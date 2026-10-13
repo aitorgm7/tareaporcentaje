@@ -1,0 +1,65 @@
+html{
+    width: 800px;
+    background-color: darkgoldenrod;
+}
+
+body{
+    width: 93%;
+    margin: auto;
+    background-color: darkseagreen;
+}
+
+form {
+padding: 3%;
+/* Antes: 10px. Regla de tres: (10 / 300) * 100 = 3,33% */
+margin: auto;
+border: 2px solid black;
+
+width: 40%;
+/* Antes: 300px. Regla de tres: (300 / 750) * 100 = 40% */
+
+background-color: aqua;
+
+}
+
+#hora {
+padding: 0% 0% 0% 3%;
+/* Antes: 10px a la izquierda. Regla de tres: (10 / 300) * 100 = 3,33% */
+
+width: 60%;
+/* Antes: 180px. Regla de tres: (180 / 300) * 100 = 60% */
+
+}
+
+label {
+margin: 0% 0% 3% 0%;
+/* Antes: 10px abajo. Regla de tres: (10 / 300) * 100 = 3,33% */
+}
+
+select {
+width: 65%;
+/* Antes: 195px. Regla de tres: (195 / 300) * 100 = 65% */
+
+padding: 1%;
+/* Antes: 3px. Regla de tres: (3 / 300) * 100 = 1% */
+
+}
+
+textarea {
+width: 90%;
+/* Antes: 270px. Regla de tres: (270 / 300) * 100 = 90% */
+
+padding: 2%;
+/* Antes: 6px. Regla de tres: (6 / 300) * 100 = 2% */
+
+}
+
+input[type="submit"] {
+padding: 2% 5%;
+/* Antes: 6px arriba y abajo: (6 / 300) * 100 = 2% */
+/* Antes: 15px a los lados: (15 / 300) * 100 = 5% */
+
+margin-top: 2%;
+/* Antes: 6px. Regla de tres: (6 / 300) * 100 = 2% */
+
+}
